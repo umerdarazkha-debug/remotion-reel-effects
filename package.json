@@ -1,0 +1,24 @@
+{
+  "name": "remotion-reel-effects",
+  "version": "1.0.0",
+  "description": "17 reel effects for Remotion: orbit, phone mockup, chart grow, paper cut, glass type and more.",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render EffectsGallery out/effects-gallery.mp4",
+    "render:example": "remotion render Example out/example.mp4",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.529",
+    "@remotion/google-fonts": "4.0.529",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.529"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}
